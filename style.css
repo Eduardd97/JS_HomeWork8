@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #141414;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.calculator {
+    background: #191919;
+    width: 350px;
+    height: 600px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+.calculator h4 {
+    margin: 0;
+    padding: 13px 0 5px 13px;
+    color: white;
+}
+.box_button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 12px 0 0 0;
+    width: 100%;
+}
+.calculation_output {
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    background: white;
+    width: 100%;
+    height: 120px;
+}
+#expressionText {
+    font-size: 18px;
+}
+.user_button, .user_button_CE, .user_button_AC {
+    padding: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow:  0px 0px 15px 0.8px black;
+    background: inherit;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.user_button:hover, .user_button_CE:hover, .user_button_AC:hover {
+    background-color: #a160fb;
+}
+.user_button:last-of-type {
+    background-color: #a160fb;
+}
+.user_button:last-of-type:hover{
+    background-color: violet;
+}
